@@ -179,4 +179,4 @@ def output_total_views(username):
 
 
 # === RUN SCRIPT ===
-output_total_views("Ajmullen")
+output_total_views("username")
