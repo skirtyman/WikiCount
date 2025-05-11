@@ -17,7 +17,8 @@ HEADERS = {
     'User-Agent': 'WikipediaPageviewFetcher/1.0 (your_email@example.com)'
 }
 
-EXCLUDED_TITLES = {"Storror","Henrietta Swan Leavitt","Oleksiy Torokhtiy","BrowserQuest"}
+# Add page titles to this list if you want no count certain pages you have edited. 
+EXCLUDED_TITLES = {}
 
 def get_edited_pages(username):
     """Fetch all unique pages edited by a user with their first edit timestamp."""
@@ -151,4 +152,5 @@ def output_total_views(username):
 
 
 # === RUN SCRIPT ===
-output_total_views("Ajmullen")
+# Insert your username here to run the program. 
+output_total_views("<userName>")
