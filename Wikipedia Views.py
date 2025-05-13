@@ -9,7 +9,7 @@ from tabulate import tabulate
 from matplotlib.ticker import FuncFormatter
 
 HEADERS = {'User-Agent': 'WikipediaPageviewFetcher/1.0 (your_email@example.com)'}
-EXCLUDED_TITLES = {"Storror","Henrietta Swan Leavitt","Oleksiy Torokhtiy","BrowserQuest"}
+EXCLUDED_TITLES = {}
 
 def get_edited_pages(username):
     url = "https://en.wikipedia.org/w/api.php"
